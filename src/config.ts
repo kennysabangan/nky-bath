@@ -70,7 +70,7 @@ export const siteConfig = {
   brandColor: "#1a6bb5",
 
   // ── Hero content ─────────────────────────────────────────────────
-  heroTagline: "Northern Kentucky's Trusted Bathroom Refinishing Service",
+  heroTagline: "Northern Kentucky Bathroom Refinishing Service",
   heroSubtext: "New bathroom look for 75% less than replacement. Call for a free estimate.",
   heroAlt: "Professional bathtub refinishing in progress",
 
@@ -91,7 +91,7 @@ export const siteConfig = {
       title: "Bathtub Refinishing",
       slug: "bathtub-refinishing",
       description:
-        "Restore your old tub to like-new condition in 3-5 hours. Costs $350-$600 vs $3,000-$10,000 for replacement. 10-15 year lifespan. Safe, durable, beautiful results.",
+        "Restore your old tub to like-new condition in 3-5 hours. Long-lasting results. Safe, durable, beautiful results.",
       photo: "/photos/residential.jpg",
     },
     {
@@ -115,7 +115,7 @@ export const siteConfig = {
     {
       question: "How much does bathtub refinishing cost?",
       answer:
-        "$350-$600 for a standard tub. Compare to $3,000-$10,000 for replacement. You save 75-90%. Call (859) 555-1000 for a free quote.",
+        "Our refinishing saves 75-90% compared to replacement. Call (859) 555-1000 for a free quote.",
     },
     {
       question: "How long does refinishing take?",
@@ -125,7 +125,7 @@ export const siteConfig = {
     {
       question: "How long does a refinished surface last?",
       answer:
-        "10-15 years with proper care. We use commercial-grade coatings designed for durability.",
+        "Long-lasting results with proper care. We use commercial-grade coatings designed for durability.",
     },
     {
       question: "Can I change the color?",
@@ -140,7 +140,7 @@ export const siteConfig = {
     {
       question: "Do you offer a warranty?",
       answer:
-        "Yes. We offer a 5-year warranty on all refinishing work.",
+        "Yes. We offer a quality work on all refinishing projects.",
     },
     {
       question: "What surfaces can you refinish?",
@@ -210,7 +210,7 @@ export const siteConfig = {
       lat: "39.0142",
       lng: "-84.5779",
       intro:
-        "Edgewood's tree-lined streets and well-kept homes make it one of Kenton County's most charming communities. NKY Bathroom Refinishing Pros has served Edgewood homeowners for years, providing professional bathroom refinishing that restores old tubs, showers, and tile to like-new condition. From the homes along Turkeyfoot Road to the quiet cul-de-sacs throughout the city, we refinish porcelain, fiberglass, and cast iron surfaces with durable, beautiful coatings. Edgewood residents appreciate our clean, fast work — most bathtub refinishing jobs are done in 3-5 hours, and we back every job with a 5-year warranty.",
+        "Edgewood's tree-lined streets and well-kept homes make it one of Kenton County's most charming communities. NKY Bathroom Refinishing Pros has served Edgewood homeowners for years, providing professional bathroom refinishing that restores old tubs, showers, and tile to like-new condition. From the homes along Turkeyfoot Road to the quiet cul-de-sacs throughout the city, we refinish porcelain, fiberglass, and cast iron surfaces with durable, beautiful coatings. Edgewood residents appreciate our clean, fast work — most bathtub refinishing jobs are done in 3-5 hours, and we back every job with our quality guarantee.",
     },
     {
       name: "Fort Thomas, KY",
@@ -242,7 +242,7 @@ export const siteConfig = {
       lat: "39.0003",
       lng: "-84.5013",
       intro:
-        "Taylor Mill has grown into a thriving community, and NKY Bathroom Refinishing Pros is proud to serve the homes that make this city special. From the established neighborhoods along Taylor Mill Road to the newer developments spreading across the city, we provide bathroom refinishing that Taylor Mill residents trust. Our refinishing process transforms outdated, stained, or worn bathtubs, showers, and tile surrounds to a like-new finish — no demolition required. We tailor our approach to each surface type, whether porcelain, fiberglass, or cast iron, ensuring the best possible results every single time.",
+        "Taylor Mill has grown into a thriving community, and NKY Bathroom Refinishing Pros is proud to serve the homes that make this city special. From the established neighborhoods along Taylor Mill Road to the newer developments spreading across the city, we provide bathroom refinishing that Taylor Mill residents trust. Our refinishing process transforms outdated, stained, or worn bathtubs, showers, and tile surrounds to a like-new finish — no demolition required. We tailor our approach to each surface type, whether porcelain, fiberglass, or cast iron, ensuring great results every time.",
     },
     {
       name: "Villa Hills, KY",
@@ -250,7 +250,7 @@ export const siteConfig = {
       lat: "39.0625",
       lng: "-84.5916",
       intro:
-        "Villa Hills is one of Northern Kentucky's premier residential communities, and the bathrooms here deserve nothing less than the best. NKY Bathroom Refinishing Pros delivers premium bathroom refinishing services that match Villa Hills' high standards. Whether you have a vintage cast iron tub with chips and stains, outdated tile surrounds, or worn countertops, our team restores every surface to a smooth, glossy, like-new finish. Villa Hills homeowners trust us because we use commercial-grade coatings, work clean, and back every job with a 5-year warranty. Save 75-90% compared to replacement.",
+        "Villa Hills is one of Northern Kentucky's premier residential communities, and the bathrooms here deserve quality service. NKY Bathroom Refinishing Pros delivers premium bathroom refinishing services that match Villa Hills' high standards. Whether you have a vintage cast iron tub with chips and stains, outdated tile surrounds, or worn countertops, our team restores every surface to a smooth, glossy, like-new finish. Villa Hills homeowners trust us because we use commercial-grade coatings, work clean, and back every job with our quality guarantee. Save 75-90% compared to replacement.",
     },
     {
       name: "Crescent Springs, KY",
@@ -307,7 +307,7 @@ export const siteConfig = {
       lat: "39.2289",
       lng: "-84.3541",
       intro:
-        "Montgomery's tree-canopied streets and stately homes make it one of the Cincinnati area's premier residential communities. NKY Bathroom Refinishing Pros extends our premium bathroom refinishing services to Montgomery homeowners who expect nothing but the best. The large homes and high-end finishes throughout Montgomery require a careful, experienced approach — and our team delivers exactly that. From historic properties near the downtown village center to sprawling estates on the outskirts, we bring the same meticulous attention to detail that has made us Northern Kentucky's most trusted bathroom refinishing service.",
+        "Montgomery's tree-canopied streets and stately homes make it one of the Cincinnati area's premier residential communities. NKY Bathroom Refinishing Pros extends our premium bathroom refinishing services to Montgomery homeowners who expect quality service. The large homes and high-end finishes throughout Montgomery require a careful, experienced approach — and our team delivers exactly that. From historic properties near the downtown village center to sprawling estates on the outskirts, we bring the same meticulous attention to detail on every job. bathroom refinishing service.",
     },
     {
       name: "Deer Park, OH",
@@ -315,7 +315,7 @@ export const siteConfig = {
       lat: "39.2053",
       lng: "-84.3922",
       intro:
-        "Deer Park is a welcoming, family-friendly community just north of Cincinnati, and NKY Bathroom Refinishing Pros is proud to bring our bathroom refinishing services to this great neighborhood. From the well-kept ranch homes along Blue Ash Road to the two-story colonials in the residential side streets, Deer Park homes deserve bathrooms that look fresh and modern. We offer flexible scheduling, fair pricing, and the kind of dependable service that Deer Park homeowners appreciate. Refinishing saves 75-90% compared to replacement — and the results speak for themselves.",
+        "Deer Park is a welcoming, family-friendly community just north of Cincinnati, and NKY Bathroom Refinishing Pros is proud to bring our bathroom refinishing services to this great neighborhood. From the well-kept ranch homes along Blue Ash Road to the two-story colonials in the residential side streets, Deer Park homes deserve bathrooms that look fresh and modern. We offer flexible scheduling, Flexible scheduling, and the kind of dependable service that Deer Park homeowners appreciate. Refinishing saves 75-90% compared to replacement — and the results speak for themselves.",
     },
     {
       name: "Amberly, OH",
@@ -399,7 +399,7 @@ export const siteConfig = {
     },
     {
       quote:
-        "Refinished our bathtub and countertops. The team was professional, clean, and the results are amazing. Best bathroom refinishing in Northern Kentucky.",
+        "Refinished our bathtub and countertops. The team was professional, clean, and the results are amazing. Professional bathroom refinishing service in Northern Kentucky.",
       name: "Sarah K.",
       city: "Fort Mitchell, KY",
     },
@@ -426,12 +426,12 @@ export const siteConfig = {
     {
       name: "Sarah K.",
       location: "Fort Mitchell, KY",
-      text: "Refinished our bathtub and countertops. The team was professional, clean, and the results are amazing. Our Fort Mitchell bathroom looks completely updated. Best bathroom refinishing in Northern Kentucky.",
+      text: "Refinished our bathtub and countertops. The team was professional, clean, and the results are amazing. Our Fort Mitchell bathroom looks completely updated. Professional bathroom refinishing service in Northern Kentucky.",
     },
     {
       name: "Mike D.",
       location: "Erlanger, KY",
-      text: "Hired them to refinish the bathtub and tile in our Erlanger rental property. Fast turnaround, great price, and the results look like new construction. The 5-year warranty gives us confidence. Will use them for all our properties.",
+      text: "Hired them to refinish the bathtub and tile in our Erlanger rental property. Fast turnaround, great service, and the results look like new construction. Our quality guarantee gives us confidence. Will use them for all our properties.",
     },
     {
       name: "Jennifer P.",
@@ -441,17 +441,17 @@ export const siteConfig = {
     {
       name: "Dave S.",
       location: "Newport, KY",
-      text: "Called for bathtub refinishing on our Newport home. They gave us a fair price over the phone and came out the same week. The tub went from stained and chipped to smooth and white. Great service, great price.",
+      text: "Called for bathtub refinishing on our Newport home. They gave us a competitive price over the phone and came out the same week. The tub went from stained and chipped to smooth and white. Great service, great service.",
     },
     {
       name: "Karen L.",
       location: "Edgewood, KY",
-      text: "We refinished two bathtubs and a shower in our Edgewood home. Looks like new construction. Affordable, fast, and the warranty gives us peace of mind. Best bathroom refinishing company in Northern Kentucky.",
+      text: "We refinished two bathtubs and a shower in our Edgewood home. Looks like new construction. Affordable, fast, and the warranty gives us peace of mind. Professional bathroom refinishing company in Northern Kentucky.",
     },
     {
       name: "Tom W.",
       location: "Fort Thomas, KY",
-      text: "Our Fort Thomas home has an original cast iron tub that was stained and worn. They refinished it beautifully — smooth, white, and glossy. Looks brand new. The team was careful and professional. Best bathroom refinishing in NKY.",
+      text: "Our Fort Thomas home has an original cast iron tub that was stained and worn. They refinished it beautifully — smooth, white, and glossy. Looks brand new. The team was careful and professional. Professional bathroom refinishing service in NKY.",
     },
   ] as { name: string; location: string; text: string }[],
 };
