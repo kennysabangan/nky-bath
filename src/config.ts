@@ -34,8 +34,8 @@ export interface Testimonial {
 export const siteConfig = {
   // ── Business identity ──────────────────────────────────────────────
   businessName: "NKY Bathroom Refinishing Pros",
-  phone: "(859) 555-1000",
-  phoneE164: "+18595551000",
+  phone: "(859) 900-8065",
+  phoneE164: "+18599008065",
   domain: "nkybathpros.com",
   siteUrl: "https://nkybathpros.com",
 
@@ -106,7 +106,7 @@ export const siteConfig = {
       slug: "countertop-refinishing",
       description:
         "Laminate, cultured marble, and tile countertops refinished to look like granite or stone. Fraction of replacement cost. Done in one day.",
-      photo: "/photos/screen-cleaning.jpg",
+      photo: "/photos/countertop-refinishing.jpg",
     },
   ] as Service[],
 
@@ -115,7 +115,7 @@ export const siteConfig = {
     {
       question: "How much does bathtub refinishing cost?",
       answer:
-        "Our refinishing saves 75-90% compared to replacement. Call (859) 555-1000 for a free quote.",
+        "Our refinishing saves 75-90% compared to replacement. Call (859) 900-8065 for a free quote.",
     },
     {
       question: "How long does refinishing take?",
@@ -150,7 +150,7 @@ export const siteConfig = {
     {
       question: "How do I schedule?",
       answer:
-        "Call (859) 555-1000. We serve Florence, Covington, Fort Mitchell, Erlanger, and all of Northern Kentucky.",
+        "Call (859) 900-8065. We serve Florence, Covington, Fort Mitchell, Erlanger, and all of Northern Kentucky.",
     },
   ] as FAQ[],
 
