@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://nkybathpros.com',
+  site: 'https://www.nkybathpros.com',
 
   vite: {
     plugins: [tailwindcss()]
