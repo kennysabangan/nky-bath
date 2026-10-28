@@ -14,7 +14,7 @@ const serviceSchema = {
     "name": businessName,
     "telephone": phoneE164,
   },
-  "areaServed": { "@type": "State", "name": "Kentucky" },
+  "areaServed": cities.map((c) => ({ "@type": "City", "name": c.name })),
   "description": `Professional ${serviceKeywordPlural} for residential and commercial properties in ${city}.`,
 };
 
@@ -29,8 +29,8 @@ const breadcrumbSchema = {
 ---
 
 <BaseLayout
-  title={`${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} Services ${city} | ${businessName}`}
-  description={`${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} services in ${city}. We provide ${serviceKeywordPlural} on homes, offices, and commercial buildings across ${region}. Call ${phone} for a free estimate.`}
+  title={`Bathroom Refinishing Service Areas in Northern Kentucky | ${businessName}`}
+  description={`${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} services in ${city}. We refinish bathtubs, showers, tile, and countertops in homes and rental properties across ${region}. Call ${phone} for a free estimate.`}
   canonicalURL={`${siteUrl}/bath/`}
   schema={[breadcrumbSchema, serviceSchema]}
 >
@@ -78,15 +78,15 @@ const breadcrumbSchema = {
 
   <p><strong>Step 1: Call Us.</strong> Give us a call at {phone} and tell us about the bathtub, shower, or countertop you need refinished. We'll ask about the surface type and condition.</p>
 
-  <p><strong>Step 2: Get Your Free Estimate.</strong> We'll give you a clear, upfront price for your {serviceKeyword}. No hidden fees, no surprises. Most homeowners are surprised at how affordable {serviceKeyword} can be compared to replacement.</p>
+  <p><strong>Step 2: Get Your Free Estimate.</strong> You'll get a clear price before any work starts. Refinishing typically costs 75-90% less than replacing the fixture.</p>
 
-  <p><strong>Step 3: We Refinish Your Surface.</strong> Our team arrives on time with all the equipment and supplies needed. We prep, repair, and apply commercial-grade coatings. Most bathtubs are done in 3-5 hours.</p>
+  <p><strong>Step 3: We Refinish Your Surface.</strong> The surface is cleaned, chips are repaired, and commercial-grade coatings are applied. Most bathtubs are done in 3-5 hours.</p>
 
-  <p><strong>Step 4: Enjoy Your Updated Bathroom.</strong> Your refinished surface will be smooth, glossy, and ready to use in 24-48 hours. Not happy with the results? We'll make it right — that's our 5-year warranty and satisfaction guarantee.</p>
+  <p><strong>Step 4: Enjoy Your Updated Bathroom.</strong> Your refinished surface will be smooth, glossy, and ready to use in 24-48 hours. Before the crew leaves, look it over with them so anything you're unsure about can be addressed on the spot.</p>
 
   <h2 class="text-brand text-xl md:text-2xl font-bold mb-4 mt-8">{serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} Service Areas</h2>
 
-  <p>We provide {serviceKeywordPlural} across {city}. We serve:</p>
+  <p>Our main service areas in Boone, Kenton, and Campbell counties:</p>
 
   <ul>
     {cities.map((c) => (
@@ -108,7 +108,7 @@ const breadcrumbSchema = {
 <section class="bg-brand-dark text-white">
   <div class="cta-strip container">
     <h2 class="text-white text-xl md:text-2xl font-bold mb-2">Call Now for {serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} in {city}</h2>
-    <p class="text-white/90 text-base mb-4">We provide ${serviceKeywordPlural} across {region}.</p>
+    <p class="text-white/90 text-base mb-4">We provide {serviceKeywordPlural} across {region}.</p>
     <PhoneCTA label="Call Now" />
   </div>
 </section>
