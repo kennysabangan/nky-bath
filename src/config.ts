@@ -33,8 +33,8 @@ export interface FAQ {
 export const siteConfig = {
   // ── Business identity ──────────────────────────────────────────────
   businessName: "NKY Bathroom Refinishing Pros",
-  phone: "(859) 900-8065",
-  phoneE164: "+18599008065",
+  phone: "(714) 494-9486",
+  phoneE164: "+17144949486",
   domain: "nkybathpros.com",
   siteUrl: "https://nkybathpros.com",
 
@@ -118,7 +118,7 @@ export const siteConfig = {
     {
       question: "How much does bathtub refinishing cost?",
       answer:
-        "Refinishing typically costs 75-90% less than replacing the tub. Call (859) 900-8065 for a free quote.",
+        "Refinishing typically costs 75-90% less than replacing the tub. Call (714) 494-9486 for a free quote.",
     },
     {
       question: "How long does refinishing take?",
@@ -153,7 +153,7 @@ export const siteConfig = {
     {
       question: "How do I schedule?",
       answer:
-        "Call (859) 900-8065. We serve Florence, Covington, Fort Mitchell, Erlanger, and all of Northern Kentucky.",
+        "Call (714) 494-9486. We serve Florence, Covington, Fort Mitchell, Erlanger, and all of Northern Kentucky.",
     },
   ] as FAQ[],
 
