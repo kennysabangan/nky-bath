@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PhoneCTA from '../../components/PhoneCTA.astro';
-import { siteConfig } from '../../config';
+import { siteConfig, pageTitle, guides } from '../../config';
 
 const { businessName, phone, phoneE164, siteUrl, serviceKeyword, serviceKeywordPlural, city, region, services, cities } = siteConfig;
 
@@ -29,8 +29,8 @@ const breadcrumbSchema = {
 ---
 
 <BaseLayout
-  title={`Bathroom Refinishing Service Areas in Northern Kentucky | ${businessName}`}
-  description={`${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} services in ${city}. We refinish bathtubs, showers, tile, and countertops in homes and rental properties across ${region}. Call ${phone} for a free estimate.`}
+  title={pageTitle("Bathroom Refinishing Service Areas in Northern Kentucky")}
+  description={`Bathtub reglazing and bathroom refinishing across Northern Kentucky. Tubs, showers, tile, and countertops for homes and rentals. Call ${phone}.`}
   canonicalURL={`${siteUrl}/bath/`}
   schema={[breadcrumbSchema, serviceSchema]}
 >
@@ -78,7 +78,7 @@ const breadcrumbSchema = {
 
   <p><strong>Step 1: Call Us.</strong> Give us a call at {phone} and tell us about the bathtub, shower, or countertop you need refinished. We'll ask about the surface type and condition.</p>
 
-  <p><strong>Step 2: Get Your Free Estimate.</strong> You'll get a clear price before any work starts. Refinishing typically costs 75-90% less than replacing the fixture.</p>
+  <p><strong>Step 2: Get Your Free Estimate.</strong> You'll get a clear price before any work starts. Refinishing typically costs 75-90% less than replacing the fixture. For typical price ranges, see our <a href={`/guides/${guides[0].slug}/`}>{guides[0].anchor}</a>.</p>
 
   <p><strong>Step 3: We Refinish Your Surface.</strong> The surface is cleaned, chips are repaired, and commercial-grade coatings are applied. Most bathtubs are done in 3-5 hours.</p>
 

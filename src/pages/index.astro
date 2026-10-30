@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { siteConfig } from '../config';
+import { siteConfig, guides } from '../config';
 
 const { businessName, phone, phoneE164, serviceKeyword, serviceKeywordPlural, city, region, faqs, services, cities, heroTagline, heroSubtext, heroAlt } = siteConfig;
 
@@ -16,8 +16,8 @@ const faqSchema = {
 ---
 
 <BaseLayout
-  title={`${businessName} | ${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} in ${city}`}
-  description={`Bathtub, shower, tile, and countertop refinishing in Florence, Covington, Fort Thomas, Newport, and across Northern Kentucky. Most tubs done in 3-5 hours. Free estimates: ${phone}.`}
+  title="Bathtub Reglazing & Refinishing | Cincinnati & NKY"
+  description="Bathtub reglazing and refinishing in Cincinnati & Northern Kentucky. Tubs, showers, tile, and countertops. Most tubs done in 3-5 hours. Free estimates."
   schema={faqSchema}
 >
 
@@ -338,7 +338,7 @@ const faqSchema = {
   <!-- Services -->
   <section class="section">
     <h2 class="section-title">Our Services</h2>
-    <p class="section-sub">Professional {serviceKeywordPlural} for homes and businesses in {city}</p>
+    <p class="section-sub">Bathtub reglazing and bathroom refinishing for homes and businesses in Cincinnati &amp; Northern Kentucky</p>
     <div class="services-grid">
       {services.map((service) => (
         <div class="service-card">
@@ -354,10 +354,11 @@ const faqSchema = {
 
   <!-- Content -->
   <section class="section">
-    <h2 class="section-title" style="text-align:left;">{serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} in {city}</h2>
-    <p class="content-text">If you have a worn, stained, or outdated bathtub, shower, or countertop in {city}, bathroom refinishing is the smart alternative to replacement. We restore your existing fixtures to a like-new finish at 75-90% less than the cost of ripping them out.</p>
+    <h2 class="section-title" style="text-align:left;">Bathtub Reglazing in Cincinnati &amp; Northern Kentucky</h2>
+    <p class="content-text">If you have a worn, stained, or outdated bathtub, shower, or countertop, bathtub reglazing (also called refinishing) is the smart alternative to replacement. {businessName} works with homeowners and landlords in Northern Kentucky and the greater Cincinnati area. We reglaze your existing fixtures to a like-new finish at 75-90% less than the cost of ripping them out.</p>
     <p class="content-text">{businessName} refinishes porcelain, fiberglass, and cast iron bathtubs, shower stalls, tile surrounds, and countertops. Commercial-grade coatings give a smooth, durable finish that can last 10-15 years with proper care.</p>
     <p class="content-text">Most bathtubs take just 3-5 hours to refinish, and the surface is ready to use in 24-48 hours. No demolition, no mess, no weeks of renovation. Choose any color and get a bathroom that looks completely updated — at a fraction of replacement cost.</p>
+    <p class="content-text">Wondering what it will cost? Our <a href={`/guides/${guides[0].slug}/`} style="color:#1a6bb5;font-weight:600;">{guides[0].anchor}</a> covers typical price ranges, what changes the price, and how refinishing compares with replacing the tub.</p>
   </section>
 
   <!-- Service Areas -->

@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { siteConfig } from '../../config';
+import { siteConfig, pageTitle, guides } from '../../config';
 import type { City } from '../../config';
 
 export function getStaticPaths() {
@@ -39,8 +39,8 @@ const stateAbbr = city.name.includes('OH') ? 'OH' : 'KY';
 ---
 
 <BaseLayout
-  title={`${serviceKeyword.charAt(0).toUpperCase() + serviceKeyword.slice(1)} in ${city.name} | ${businessName}`}
-  description={`Need ${serviceKeyword} in ${city.name}? ${businessName} provides residential and commercial ${serviceKeywordPlural} in ${cityName} and all across ${regionCity}. Call ${phone} for a free estimate.`}
+  title={pageTitle(`Bathtub Reglazing & Refinishing in ${city.name}`)}
+  description={`Bathtub reglazing and refinishing in ${city.name}: tubs, showers, tile, and countertops. Most tubs done in 3-5 hours. Free estimates: ${phone}.`}
   canonicalURL={`${siteUrl}/bath/${city.slug}/`}
   schema={[breadcrumbSchema, cityServiceSchema]}
 >
@@ -364,6 +364,7 @@ const stateAbbr = city.name.includes('OH') ? 'OH' : 'KY';
     <p class="content-text">{city.intro}</p>
     <p class="content-text">We refinish bathtubs, showers, tile surrounds, and countertops throughout {cityName}. Whether you have a worn tub, stained tile, or an outdated countertop, refinishing restores the surface without tearing anything out.</p>
     <p class="content-text">Our {serviceKeyword} service in {cityName} includes bathtub refinishing, shower and tile refinishing, and countertop refinishing. We use low-VOC, commercial-grade coatings that are safe for your family and pets once cured. The surface is ready to use in 24-48 hours, and the finish can last 10-15 years with proper care.</p>
+    <p class="content-text">Comparing prices? Read our <a href={`/guides/${guides[0].slug}/`} style="color:#1a6bb5;font-weight:600;">{guides[0].anchor}</a> for typical price ranges and what changes a quote.</p>
   </section>
 
   <!-- Mid CTA -->

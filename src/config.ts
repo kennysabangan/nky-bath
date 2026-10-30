@@ -73,8 +73,8 @@ export const siteConfig = {
   brandColor: "#1a6bb5",
 
   // ── Hero content ─────────────────────────────────────────────────
-  heroTagline: "Northern Kentucky Bathroom Refinishing Service",
-  heroSubtext: "New bathroom look for 75% less than replacement. Call for a free estimate.",
+  heroTagline: "Bathtub Reglazing & Refinishing in Cincinnati & Northern Kentucky",
+  heroSubtext: "Reglaze your tub, shower, or tile for a like-new look at 75% less than replacement. Call for a free estimate.",
   heroAlt: "Professional bathtub refinishing in progress",
 
   // ── Computed city lists ──────────────────────────────────────────
@@ -91,10 +91,10 @@ export const siteConfig = {
   // ── Services ──────────────────────────────────────────────────────
   services: [
     {
-      title: "Bathtub Refinishing",
+      title: "Bathtub Reglazing & Refinishing",
       slug: "bathtub-refinishing",
       description:
-        "Porcelain, fiberglass, and cast iron tubs restored to a smooth, glossy finish in 3-5 hours. Chips are repaired before the new coating goes on.",
+        "Bathtub reglazing for porcelain, fiberglass, and cast iron tubs, restored to a smooth, glossy finish in 3-5 hours. Chips are repaired before the new coating goes on.",
       photo: "/photos/residential.jpg",
     },
     {
@@ -225,3 +225,21 @@ export const siteConfig = {
     },
   ] as City[],
 };
+
+/**
+ * Build a page <title> that stays within 60 characters: the brand name is
+ * appended only when it fits, so the service + place always comes first.
+ */
+export function pageTitle(main: string, max = 60): string {
+  const withBrand = `${main} | ${siteConfig.businessName}`;
+  return withBrand.length <= max ? withBrand : main;
+}
+
+/** Guides / long-form articles (used for internal links and llms.txt). */
+export const guides = [
+  {
+    slug: "bathtub-refinishing-cost",
+    title: "How Much Does Bathtub Refinishing Cost?",
+    anchor: "bathtub refinishing cost guide",
+  },
+];
